@@ -1,0 +1,114 @@
+.explorar-content {
+  color: #fff;
+  background-color: black;
+  font-size: 14px;
+  padding: 8px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 0.3s background-color;
+}
+
+.explorar-content:hover {
+  background-color: rgb(41, 41, 41);
+}
+
+.navbar {
+  background-color: #fff;
+  height: 80px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 0.5rem;
+}
+
+.navbar-toggler {
+  border: none;
+  font-size: 1.25rem;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link {
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: black;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover:before,
+.nav-link.active::before {
+  width: 100%;
+  visibility: visible;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: rgb(61, 61, 61);
+  transition: 0.3s color;
+}
+
+.hero-section {
+  width: 100%;
+}
+
+.hero-section::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-section .container {
+  height: 100vh;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}
+
+.hero-section h2 {
+  margin-top: 5%;
+}
+
+.bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.4);
+}
+
+.hero-section .container h2 {
+  color: antiquewhite;
+}
+
+.footer {
+  background-color: transparent;
+  font-size: 0.9rem;
+  position: relative;
+  z-index: 2;
+}
