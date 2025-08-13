@@ -9,7 +9,7 @@ Este é o site oficial da artista Alanys, especialista em tatuagens no estilo Bl
 - Mapa de localização do Home Studio
 
 ## 🔗 Acesse o site:
-[hollytattoos.github.io/holly-tattoos-site](https://hollytattoos.github.io/holly-tattoos-site)
+[hollytattoos.github.io/holly-tattoos-site](https://w-eduarda.github.io/holly-tattoos-site/)
 
 ## 📁 Tecnologias utilizadas:
 - HTML5
